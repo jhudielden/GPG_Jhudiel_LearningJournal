@@ -7,4 +7,5 @@
 1. In the `Hieracrhy` tab, right click and navigate in the drop down `2D Object -> Sprites -> Square`
 2. Name it `Player`
 
-    - Optionally, you can change the colour of the player by clicking on Player and in the `Inspector` tab, under `Sprite Renderer` the Color 
+    - Optionally, you can change the colour of the player by clicking on Player and in the `Inspector` tab, under `Sprite Renderer` find `Color` field and click on the white box to open the colour wheel
+     ![alt text](<Player Inspector.PNG>)
