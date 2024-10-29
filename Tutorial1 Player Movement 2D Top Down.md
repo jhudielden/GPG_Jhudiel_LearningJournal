@@ -8,4 +8,5 @@
 2. Name it `Player`
 
     - Optionally, you can change the colour of the player by clicking on Player and in the `Inspector` tab, under `Sprite Renderer` find `Color` field and click on the white box to open the colour wheel
-     ![alt text](<Player Inspector.PNG>)
+     
+        ![alt text](<Player Inspector.PNG>)
