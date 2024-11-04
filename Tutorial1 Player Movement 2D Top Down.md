@@ -34,6 +34,6 @@ public class PlayerMovement : MonoBehaviour
     }
 }
 ```
-What's happening here is the use of `Input.GetAxis` to declare and use the input movements of the `Horizontal` and Vertical` plane and making it a variable so it can be used the the following statements.
+What's happening here is the use of `Input.GetAxis` to declare and use the input movements of the `Horizontal` and `Vertical` plane and making it a variable so it can be used the the following statements.
 
-The statements use of `transform.Translate` is
+The statements use of `transform.Translate` is to move the transform or `Player` in this case but also states the distance and how it moves.
