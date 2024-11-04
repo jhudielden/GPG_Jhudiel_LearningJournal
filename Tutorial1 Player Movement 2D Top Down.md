@@ -11,4 +11,4 @@
      
         ![alt text](<Player Inspector.PNG>)
 ### Let's make the script to make it move
-1. 
+1. Go to the `Assets` folder in the `Project` tab to make a new folder to keep things organised and right-click `Create -> Folder` and name it Scripts
