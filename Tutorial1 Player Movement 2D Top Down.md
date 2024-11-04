@@ -10,3 +10,5 @@
     - Optionally, you can change the colour of the player by clicking on Player and in the `Inspector` tab, under `Sprite Renderer` find `Color` field and click on the white box to open the colour wheel
      
         ![alt text](<Player Inspector.PNG>)
+### Let's make the script to make it move
+1. 
