@@ -34,4 +34,6 @@ public class PlayerMovement : MonoBehaviour
     }
 }
 ```
-What's happening here is declaring the different input movements using `Input.GetAxis` of the `Horizontal` axis and the `Vertical`
+What's happening here is the use of `Input.GetAxis` to declare and use the input movements of the `Horizontal` and Vertical` plane and making it a variable so it can be used the the following statements.
+
+The statements use of `transform.Translate` is
