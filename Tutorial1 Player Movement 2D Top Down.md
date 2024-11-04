@@ -16,4 +16,20 @@
 
 ```c#
 public class PlayerMovement : MonoBehaviour
+{
+    public float speed = 4f; 
+    void Start()
+    {
+        
+    }
+
+    
+    void Update()
+    {
+        float Hinput = Input.GetAxis("Horizontal");
+        float Vinput = Input.GetAxis("Vertical");
+        transform.Translate(Vector3.right * speed * Hinput * Time.deltaTime);
+        transform.Translate(Vector3.up * speed * Vinput * Time.deltaTime);
+    }
+}
 ```
