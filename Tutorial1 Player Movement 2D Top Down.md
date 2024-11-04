@@ -13,3 +13,7 @@
 ### Let's make the script to make it move
 1. Go to the `Assets` folder in the `Project` tab to make a new folder to keep things organised and right-click `Create -> Folder` and name it `Scripts`
 2. Open the folder and go right-click `Create -> C# Script` to open a fresh script and name it `PlayerMovement` with no spaces.
+
+```c#
+public class PlayerMovement : MonoBehaviour
+```
