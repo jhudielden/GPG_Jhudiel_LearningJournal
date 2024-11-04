@@ -39,4 +39,5 @@ What's happening here is the use of `Input.GetAxis` to declare and use the input
 The statements use of `transform.Translate` is to move the transform or `Player` in this case but also states the distance and how it moves.
 
 At the top of the script variable for `speed` had to be made, without it the `Player` will move but it moves in relation to the frame speed which can be slow but also differs on every machine so to set it at a fixed `float` makes it consistent.
+
 4. Back into Unity, click on `Player` to see it's `Inspector` tab and it's components and drag the `PlayerMovement` script where it says `Add Component` to apply the script to the `Player`.
