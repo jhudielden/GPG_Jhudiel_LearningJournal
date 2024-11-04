@@ -13,6 +13,7 @@
 ### Let's make the script to make it move
 1. Go to the `Assets` folder in the `Project` tab to make a new folder to keep things organised and right-click `Create -> Folder` and name it `Scripts`
 2. Open the folder and go right-click `Create -> C# Script` to open a fresh script and name it `PlayerMovement` with no spaces.
+3. Here is the example script, copy and paste the lines in the spaces which the script loads in
 
 ```c#
 public class PlayerMovement : MonoBehaviour
@@ -33,3 +34,4 @@ public class PlayerMovement : MonoBehaviour
     }
 }
 ```
+What's happening here is declaring the different input movements using `Input.GetAxis` of the `Horizontal` axis and the `Vertical`
