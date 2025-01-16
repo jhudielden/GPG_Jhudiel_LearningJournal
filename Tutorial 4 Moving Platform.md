@@ -31,12 +31,15 @@ void Update()
 ```
 Here is the script but there are steps that are needed to be followed in the Unity scene for it to work as well
 ## Let's add the platform into the Unity scene
-1. In the `Hieracrhy` tab, right click and navigate in the drop down `Create Empty`
-2. Name it `Moving Platform`
+1. In the ``Hierarchy`` tab, right click and navigate in the drop down `Create Empty`
+2. Name it ``Moving Platform``
 3. Right-click on the empty ``2D Object -> Sprites -> Square`` and name it ``Platform``
 4. In the ``Platform`` Inspector add the ``Box Collider 2D`` component and ``Platform Effector 2D`` component on it
-5. Right-click on ``Moving Platform`` and create an empty and name it ``Point A`` and make another and call it ``Point B``.
-6. To make it easier to see click in the ``Inspector`` tab on the cube dropdown button
+5. Change the scale of the square to the shape of the platform you want it to be
+6. Right-click on ``Moving Platform`` and create an empty and name it ``Point A`` and make another the same way and call it ``Point B``.
+7. To make it easier to see click in the ``Inspector`` tab of each points on the cube dropdown button to give the empty an icon and give the two points two different colours
 ![image](https://github.com/user-attachments/assets/045a9141-d1f7-4817-822e-6c6ec6238125)
+8. Move the points to where you want the platform to move between
+9. Link the the ``MovingPlatform`` script to the ``Platform`` sprite
  
 
