@@ -41,5 +41,8 @@ Here is the script but there are steps that are needed to be followed in the Uni
 ![image](https://github.com/user-attachments/assets/045a9141-d1f7-4817-822e-6c6ec6238125)
 8. Move the points to where you want the platform to move between
 9. Link the the ``MovingPlatform`` script to the ``Platform`` sprite
+10. Once you do, make sure to link the `` public Tranform pointA`` and ``public Transform pointB`` to the empty game objects in the ``Inspector`` tab of the ``Platform``
+![image](https://github.com/user-attachments/assets/2fd40303-766b-4739-8f67-55cf06506f9e)
+
  
 
