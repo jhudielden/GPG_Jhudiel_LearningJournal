@@ -7,9 +7,13 @@
 ```c#
 public class CameraFollow : MonoBehaviour
 {
-    public float FollowSpeed = 2f;
     public Transform target;
     public Vector3 offset;
+
+    private void FixedUpdate()
+    {
+        transform.position = target.position + offset;
+    }
 }
 ```
  
